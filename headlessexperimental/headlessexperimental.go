@@ -13,7 +13,7 @@ import (
 	"context"
 	"encoding/base64"
 
-	"github.com/chromedp/cdproto/cdp"
+	"github.com/c12o16h1/cdproto/cdp"
 )
 
 // BeginFrameParams sends a BeginFrame to the target and returns when the

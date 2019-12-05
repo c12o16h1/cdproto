@@ -9,7 +9,7 @@ package applicationcache
 import (
 	"context"
 
-	"github.com/chromedp/cdproto/cdp"
+	"github.com/c12o16h1/cdproto/cdp"
 )
 
 // EnableParams enables application cache domain notifications.

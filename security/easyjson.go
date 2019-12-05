@@ -4,7 +4,7 @@ package security
 
 import (
 	json "encoding/json"
-	cdp "github.com/chromedp/cdproto/cdp"
+	cdp "github.com/c12o16h1/cdproto/cdp"
 	easyjson "github.com/mailru/easyjson"
 	jlexer "github.com/mailru/easyjson/jlexer"
 	jwriter "github.com/mailru/easyjson/jwriter"

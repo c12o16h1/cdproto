@@ -4,8 +4,8 @@ package emulation
 
 import (
 	json "encoding/json"
-	cdp "github.com/chromedp/cdproto/cdp"
-	page "github.com/chromedp/cdproto/page"
+	cdp "github.com/c12o16h1/cdproto/cdp"
+	page "github.com/c12o16h1/cdproto/page"
 	easyjson "github.com/mailru/easyjson"
 	jlexer "github.com/mailru/easyjson/jlexer"
 	jwriter "github.com/mailru/easyjson/jwriter"

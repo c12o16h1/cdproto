@@ -18,6 +18,6 @@ your Pull Request to the [`cdproto-gen`][cdproto-gen] project. Any Issues and
 Pull Requests submitted to this project will be closed without being reviewed.
 
 [devtools-protocol]: https://chromedevtools.github.io/devtools-protocol/
-[cdproto-gen]: https://github.com/chromedp/cdproto-gen
-[chromedp]: https://github.com/chromedp/chromedp
-[godoc]: https://godoc.org/github.com/chromedp/cdproto
+[cdproto-gen]: https://github.com/c12o16h1/cdproto-gen
+[chromedp]: https://github.com/c12o16h1/chromedp
+[godoc]: https://godoc.org/github.com/c12o16h1/cdproto

@@ -11,8 +11,8 @@ package browser
 import (
 	"context"
 
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/target"
+	"github.com/c12o16h1/cdproto/cdp"
+	"github.com/c12o16h1/cdproto/target"
 )
 
 // SetPermissionParams set permission settings for given origin.

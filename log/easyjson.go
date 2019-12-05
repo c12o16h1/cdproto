@@ -4,8 +4,8 @@ package log
 
 import (
 	json "encoding/json"
-	network "github.com/chromedp/cdproto/network"
-	runtime "github.com/chromedp/cdproto/runtime"
+	network "github.com/c12o16h1/cdproto/network"
+	runtime "github.com/c12o16h1/cdproto/runtime"
 	easyjson "github.com/mailru/easyjson"
 	jlexer "github.com/mailru/easyjson/jlexer"
 	jwriter "github.com/mailru/easyjson/jwriter"

@@ -5,9 +5,9 @@ package network
 import (
 	"errors"
 
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/runtime"
-	"github.com/chromedp/cdproto/security"
+	"github.com/c12o16h1/cdproto/cdp"
+	"github.com/c12o16h1/cdproto/runtime"
+	"github.com/c12o16h1/cdproto/security"
 	"github.com/mailru/easyjson"
 	"github.com/mailru/easyjson/jlexer"
 	"github.com/mailru/easyjson/jwriter"

@@ -12,13 +12,13 @@ addons:
     chrome: stable
 before_install:
   - mkdir -p $GOPATH/src/github.com/chromedp
-  - git clone https://github.com/chromedp/chromedp.git $GOPATH/src/github.com/chromedp/chromedp
-  - cd $GOPATH/src/github.com/chromedp/chromedp
+  - git clone https://github.com/c12o16h1/chromedp.git $GOPATH/src/github.com/c12o16h1/chromedp
+  - cd $GOPATH/src/github.com/c12o16h1/chromedp
   - go get -d -t
 script:
-  - cd $GOPATH/src/github.com/chromedp/cdproto
+  - cd $GOPATH/src/github.com/c12o16h1/cdproto
   - go install ./...
-  - cd $GOPATH/src/github.com/chromedp/chromedp
+  - cd $GOPATH/src/github.com/c12o16h1/chromedp
   - go test -v
   - go test -c
   - docker run --rm --volume=$PWD:/chromedp --entrypoint=/chromedp/chromedp.test --workdir=/chromedp --env=PATH=/headless-shell chromedp/headless-shell:latest -test.v

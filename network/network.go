@@ -14,9 +14,9 @@ import (
 	"context"
 	"encoding/base64"
 
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/debugger"
-	"github.com/chromedp/cdproto/io"
+	"github.com/c12o16h1/cdproto/cdp"
+	"github.com/c12o16h1/cdproto/debugger"
+	"github.com/c12o16h1/cdproto/io"
 )
 
 // ClearBrowserCacheParams clears browser cache.

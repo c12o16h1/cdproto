@@ -13,9 +13,9 @@ import (
 	"context"
 	"encoding/base64"
 
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/io"
-	"github.com/chromedp/cdproto/network"
+	"github.com/c12o16h1/cdproto/cdp"
+	"github.com/c12o16h1/cdproto/io"
+	"github.com/c12o16h1/cdproto/network"
 )
 
 // DisableParams disables the fetch domain.
